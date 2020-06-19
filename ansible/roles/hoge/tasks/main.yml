@@ -1,0 +1,5 @@
+- name: INSTALL SL
+  yum: name=sl state=present
+
+- name: I N S T A L L C O W S A Y
+  yum: name=cowsay state=present

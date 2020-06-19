@@ -1,0 +1,11 @@
+- name: apply common configuration to all nodes
+  hosts: all
+  remote_user: vagrant
+  roles:
+  - common
+
+- name: configure and execute some programs
+  hosts: all
+  remote_user: vagrant
+  roles:
+  - hoge

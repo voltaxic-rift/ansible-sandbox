@@ -16,4 +16,12 @@ vagrant plugin install vagrant-vbguest
 ```
 vagrant up
 vagrant ssh ansible
+
+cd /ansible/ansible
+```
+
+### Execute playbook
+
+```
+ansible-playbook -i hosts site.yml --become
 ```
